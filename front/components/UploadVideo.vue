@@ -36,7 +36,7 @@
         </UInput>
 
         <div class="text-xs text-gray-400">上传本地视频</div>
-        <UInput type="file" size="sm" icon="i-heroicons-folder" @change="handleUploadVideo" accept="video/*" />
+        <UInput type="file" size="sm" icon="i-heroicons-folder" @change="handleUploadVideo" accept="video/*"/>
 
         <p v-if="filename" class="text-xs text-gray-400">正在上传({{ current }}/{{ total }})</p>
         <p v-if="filename" class="text-xs text-gray-400">{{ filename }}</p>
